@@ -1,0 +1,9 @@
+.styledword {
+    padding: 10px;
+    border: 1px solid black;
+    color: blue;
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}

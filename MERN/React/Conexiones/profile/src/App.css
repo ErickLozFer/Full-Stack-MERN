@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.app {
+  height: 100%;
+}
+
+#nav {
+  height: 80px;
+  background-color: #282727;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav,
+li,
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.active {
+  font-weight: 600;
+}
+
+.nav-title {
+  margin-left: 20px;
+}
+
+.btn {
+  background-color: #33a2c7;
+  color: white;
+  padding: 5px 18px;
+  border: black;
+  border: 3px solid black;
+  box-shadow: 4px 6px black;
+  cursor: pointer;
+  height: 40%;
+}
+
+.right {
+  margin-left: 400px;
+}
+
+.btn:hover {
+  background-color: #cc0000;
+  font-weight: bold;
+}
+
+#user-card {
+  width: 33%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 22.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user {
+  width: 90%;
+  background-color: white;
+  border: 2px solid #999;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.card-1 {
+  background-color: #1b99ac;
+  height: 125px;
+  margin-bottom: 60px;
+}
+
+.card-2 {
+  padding: 5px;
+}
+
+.name-1,
+.map-icon,
+.card-2,
+.data,
+.edit-profile {
+  margin: 20px 0px 10px 15px;
+  color: black;
+}
+
+.photo {
+  border-radius: 50%;
+  background-color: white;
+  height: 190px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.map {
+  height: 20px;
+}
+
+.edit {
+  height: 20px;
+}
+
+.edit-profile {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  color: blue;
+}
+
+.edit-profile:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+#education {
+  margin: 0 auto;
+  padding: 0;
+  width: 29.8%;
+  margin-top: 10px;
+  margin-left: 22.5%;
+}
+
+.border-1 {
+  border: 2px solid #999;
+}
+
+.title-1 {
+  color: white;
+  background-color: #282727;
+  height: 30px;
+}
+
+.margin-1,
+.margin-2 {
+  padding: 2px;
+  margin-left: 15px;
+}
+
+.program {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.date {
+  color: gray;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.knowledge {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#connection-requests {
+  margin: 0 auto;
+  padding: 0;
+  width: 23%;
+  transform: translateX(305px) translateY(-606px);
+}
+
+.border-2 {
+  border: 3px solid #999;
+}
+
+.title-2,
+.title-3 {
+  color: white;
+  background-color: #282727;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.circle-1 {
+  color: black;
+  border-radius: 50%;
+  background-color: #c0bfbf;
+  height: 22px;
+  width: 22px;
+  padding: 0 0 0 5px;
+  margin: 2px 3px 0 2px;
+  text-align: center;
+}
+
+.margin-3 {
+  margin-left: 3px;
+}
+
+.photo-todd,
+.photo-phill {
+  border-radius: 50%;
+  background-color: black;
+  height: 68px;
+  padding: 3px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.seccion-1,
+.check-close {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.check-close {
+  padding: 20px;
+}
+
+.check:hover {
+  background-color: blue;
+  font-weight: bold;
+}
+
+.close:hover {
+  background-color: #cc0000;
+  font-weight: bold;
+}
+
+.check {
+  height: 30px;
+  margin-right: 3px;
+}
+
+.close {
+  height: 30px;
+  margin-left: 3px;
+}
+
+.name-2 {
+  font-size: 21px;
+  font-weight: 600;
+  transform: translateX(-30px)
+}
+
+#your-connections {
+  margin: 0 auto;
+  padding: 0;
+  width: 23%;
+  transform: translateX(305px) translateY(-584px);
+}
+
+.circle-2 {
+  color: black;
+  border-radius: 50%;
+  background-color: #c0bfbf;
+  height: 25px;
+  width: 55px;
+  padding: 0 0 0 5px;
+  margin: 2px 3px 0 20px;
+  text-align: center;
+}
+
+.border-3 {
+  border: 3px solid #999;
+}
+
+.title-4,
+.title-5 {
+  color: white;
+  background-color: #282727;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.title-5 {
+  transform: translateX(40px);
+}
+
+.margin-4 {
+  margin-left: 3px;
+}
+
+.photo-adrien,
+.photo-anne,
+.photo-alayne,
+.photo-arry {
+  border-radius: 50%;
+  background-color: black;
+  height: 68px;
+  padding: 3px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
+.seccion-2 {
+  display: flex;
+  align-items: center;
+}
+
+.name-3 {
+  font-size: 21px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.more-2 {
+  color: blue;
+  align-items: center;
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+.view {
+  border-top: 2px solid #999;
+  height: 30px;
+}

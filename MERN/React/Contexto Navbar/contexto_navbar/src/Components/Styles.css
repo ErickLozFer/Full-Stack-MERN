@@ -1,0 +1,31 @@
+.nombre {
+    background-color: #8C30C5;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    height: 40px;
+    width: 50%;
+    padding-right: 10px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+.datos1 {
+    margin-left: 25%;
+    font-size: 16px;
+}
+
+.datos2 {
+    margin-bottom: 10px;
+}
+
+.datos3 {
+    background-color: #e3e3e3;
+    height: 23px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin-left: 10px;
+}

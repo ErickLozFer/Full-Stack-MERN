@@ -1,0 +1,23 @@
+.espacio2 {
+    margin-bottom: 10px;
+}
+
+.check {
+    margin-right: 5px;
+}
+
+.btn2{
+    margin-left: 5px;
+    text-align: center;
+    height: 20px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #eaeaea;
+    border: 1px solid silver;
+}
+
+.btn2:hover {
+    color: white;
+    background-color: red;
+    border: red;
+}

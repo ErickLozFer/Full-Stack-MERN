@@ -1,0 +1,41 @@
+.tabs {
+  overflow: hidden;
+}
+
+.tab-headers {
+  display: flex;
+  overflow: hidden;
+}
+
+.tab-header {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border: 1px solid silver;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.tab-header.active {
+  color: white;
+  background-color: #000000;
+}
+
+.tab-content {
+  width: 500px;
+  height: 100px;
+  padding: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 18px;
+  border: 1px solid silver;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.tab-content.hidden {
+  opacity: 0;
+}

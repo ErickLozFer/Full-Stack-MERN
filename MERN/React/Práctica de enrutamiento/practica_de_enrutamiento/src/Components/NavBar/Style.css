@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #1d1d1d;
+    height: 50px;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+li {
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.pages,
+li,
+a {
+    color: white;
+}
+
+.pages,
+li,
+a:hover {
+    color: #00ab00;
+}
+
+.home {
+    margin-left: 60px;
+}
+
+.home:hover {
+    font-size: 19px;
+}
+
+.styled {
+    margin-right: 60px;
+}
+
+.number:hover {
+    font-size: 19px;
+}
+
+.word:hover {
+    font-size: 19px;
+}
+
+.styled:hover {
+    font-size: 19px;
+}

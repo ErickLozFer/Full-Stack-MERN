@@ -1,0 +1,111 @@
+Salidas Postman
+
+//GET
+http://localhost:8000/api/jokes
+{
+    "jokes": [
+        {
+            "_id": "65f76fae51f681d302b6737a",
+            "__v": 0
+        },
+        {
+            "_id": "65f77e76a6c677f1a9c2474e",
+            "__v": 0
+        },
+        {
+            "_id": "65f77e88a6c677f1a9c24750",
+            "__v": 0
+        },
+        {
+            "_id": "65f77eed43ad3fe75153ecfe",
+            "__v": 0
+        },
+        {
+            "_id": "65f77efd43ad3fe75153ed00",
+            "__v": 0
+        },
+        {
+            "_id": "65f783eed035b16fab6b5a72",
+            "setup": "¿Qué hace una abeja en el gimnasio?",
+            "punchline": "¡Zum-ba!",
+            "__v": 0
+        }
+    ]
+}
+
+
+//GET
+http://localhost:8000/api/jokes/:id
+{
+    "message": "Something went wrong",
+    "error": {
+        "stringValue": "\":id\"",
+        "valueType": "string",
+        "kind": "ObjectId",
+        "value": ":id",
+        "path": "_id",
+        "reason": {},
+        "name": "CastError",
+        "message": "Cast to ObjectId failed for value \":id\" (type string) at path \"_id\" for model \"Joke\""
+    }
+}
+
+
+//PUT
+http://localhost:8000/api/jokes/update/65f77efd43ad3fe75153ed00
+{
+    "joke": {
+        "_id": "65f77efd43ad3fe75153ed00",
+        "__v": 0,
+        "punchline": "¿Qué le dice un jardinero a otro?",
+        "setup": "¡Nos vemos en la próxima siembra!"
+    }
+}
+
+
+//POST
+http://localhost:8000/api/jokes/new
+{
+    "joke": {
+        "setup": "Porque ya tienen Twitter.",
+        "punchline": "¿Por qué los pájaros no usan Facebook?",
+        "_id": "65f78c2a44d6006647f32c16",
+        "__v": 0
+    }
+}
+
+
+//DELETE
+http://localhost:8000/api/jokes/delete/65f76fae51f681d302b6737a
+{
+    "result": {
+        "acknowledged": true,
+        "deletedCount": 1
+    }
+}
+
+
+//GET *después de haber eliminado los 4 parámetros por defecto y haber cambiado uno y agregados dos
+http://localhost:8000/api/jokes
+{
+    "jokes": [
+        {
+            "_id": "65f77efd43ad3fe75153ed00",
+            "__v": 0,
+            "punchline": "¿Qué le dice un jardinero a otro?",
+            "setup": "¡Nos vemos en la próxima siembra!"
+        },
+        {
+            "_id": "65f783eed035b16fab6b5a72",
+            "setup": "¿Qué hace una abeja en el gimnasio?",
+            "punchline": "¡Zum-ba!",
+            "__v": 0
+        },
+        {
+            "_id": "65f78c2a44d6006647f32c16",
+            "setup": "Porque ya tienen Twitter.",
+            "punchline": "¿Por qué los pájaros no usan Facebook?",
+            "__v": 0
+        }
+    ]
+}

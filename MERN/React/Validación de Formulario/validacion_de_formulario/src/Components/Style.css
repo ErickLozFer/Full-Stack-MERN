@@ -1,0 +1,41 @@
+.form {
+    margin-left: 40%;
+}
+
+.inf0 {
+    margin-top: 20px;
+}
+
+.inf {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.inf2 {
+    margin-top: 20px;
+}
+
+.color {
+    background-color: #3498DB;
+    color: white;
+    height: 27px;
+    width: 77px;
+    font-size: 13px;
+    border: none;
+    border-radius: 2px;
+}
+
+.tamaño {
+    height: 20px;
+    width: 250px;
+    border: 1px solid silver;
+    background-color: white;
+}
+
+.espace {
+    margin-left: 6px;
+}
+
+.error {
+    color: red;
+}

@@ -1,0 +1,38 @@
+.espacio {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.titulo {
+    margin-bottom: 5px;
+}
+
+.search {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    background-color: #eaeaea;
+    border: 1px solid silver;
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    height: 20px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #eaeaea;
+    border: 1px solid silver;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #4848de;
+    border: #4848de;
+}
+
+.formato {
+    list-style-type: none;
+}

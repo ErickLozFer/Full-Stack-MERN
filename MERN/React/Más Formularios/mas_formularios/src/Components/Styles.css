@@ -1,0 +1,62 @@
+.form-group {
+    background-color: #eeeeee;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group2 {
+    margin-top: 3%;
+    background-color: #eeeeee;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.inf {
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none;
+    height: 23px;
+}
+
+.inf2 {
+    border-radius: 5px;
+    margin-left: 40px;
+    border: none;
+    height: 23px;
+}
+
+.inf3 {
+    border-radius: 5px;
+    margin-left: 30px;
+    border: none;
+    height: 23px;
+}
+
+.inf4 {
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border: none;
+    height: 23px;
+}
+
+.text {
+    margin-left: 10px;
+    color: #b6b6b6;
+}
+
+.text2 {
+    margin-left: 22px;
+    color: #b6b6b6;
+}
+
+.app {
+    margin-left: 40%;
+    margin-top: 10%;
+}

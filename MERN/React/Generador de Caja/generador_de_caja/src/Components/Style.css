@@ -1,0 +1,26 @@
+.texto {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.texto2 {
+    font-size: 15px;
+    height: 32px;
+    width: 60px;
+    background-color: white;
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
+}
+
+.search {
+    background-color: #EFEFEF;
+    height: 32px;
+    width: 230px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+}
+
+.espace {
+    margin-bottom: 10px;
+}

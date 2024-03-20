@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('../assets/img/fondo.jpg');
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+}
+
+label {
+    margin: 8px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+select {
+    font-size: medium;
+    margin: 5px;
+    border: solid 3px white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button {
+    margin-left: 20px;
+    border: solid 3px white;
+    border-radius: 5px;
+    background-color: white;
+    width: 150px;
+    height: 23px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #60cdff;
+    border: solid 3px #60cdff;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultado {
+    padding: 15px;
+    margin: 20px;
+    background-color: #fdffcd;
+    margin-top: 40px;
+    color: black;
+    font-size: 20px;
+}
+
+.errores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    margin: 15px;
+}

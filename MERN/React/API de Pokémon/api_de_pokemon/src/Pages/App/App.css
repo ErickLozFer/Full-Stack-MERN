@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 5px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #666666;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #5d5dfd;
+}
+
+.pokes {
+    display: flex;
+    justify-content: center;
+}
+
+.pokes ul {
+    padding: 0;
+}
+
+.pokes li {
+    margin: 5px 0;
+}

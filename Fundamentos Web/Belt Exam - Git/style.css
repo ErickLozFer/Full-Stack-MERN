@@ -1,0 +1,418 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/*He logrado dar con la paleta de colores originales de la página de Git usando ColorZilla (muy buena extensión).*/
+
+body {
+    background-color: #F1F1E9;
+}
+
+.over {
+    overflow: hidden;
+}
+
+.logo-git,
+.text-1 {
+    display: inline-block;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo-git {
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 290px;
+    margin-right: 5px;
+}
+
+.text-1 {
+    font-size: 29px;
+    color: #9A9994;
+    transform: translateY(-9px);
+    overflow: hidden;
+}
+
+.search-container {
+    display: flex;
+    overflow: hidden;
+    border: 2px solid #CECCC5;
+    border-radius: 15px;
+    height: 29px;
+    width: 297px;
+    background-color: #FCFCFA;
+    transform: translateX(317px) translateY(-38px);
+    /*Empleo "transform" para poder ubicar de manera más exacta los elementos.*/
+    outline: none;
+}
+
+.search-input {
+    background-color: #FCFCFA;
+    color: #757575;
+    height: 29px;
+    width: 297px;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    transform: translateX(2px) translateY(-1px);
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+}
+
+.icon-search {
+    height: 20px;
+    transform: translateX(4px) translateY(2px);
+}
+
+#box-2 {
+    overflow: hidden;
+}
+
+.links {
+    text-decoration: none;
+    list-style: none;
+    color: #413932;
+    margin-left: 287px;
+    overflow: hidden;
+}
+
+.title-1,
+.title-2 {
+    margin-bottom: 11px;
+    overflow: hidden;
+}
+
+.title-1,
+.title-2,
+.title-3,
+.title-6 {
+    font-weight: bold;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.title-4,
+.title-5 {
+    margin-left: 18px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.title-5 {
+    margin-bottom: 20px;
+}
+
+.links:hover {
+    color: #f15132;
+}
+
+.link-1 {
+    text-decoration: none;
+    list-style: none;
+    color: #f15132;
+    margin-left: 287px;
+    overflow: hidden;
+}
+
+#box-3 {
+    display: flex;
+    background-color: #E9E9E0;
+    width: 220px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 5px;
+    color: #887668;
+    font-size: 16px;
+    transform: translateX(-358px) translateY(48px);
+}
+
+.link-2,
+.link-3 {
+    color: #0388A6;
+    text-decoration: none;
+    list-style: none;
+}
+
+.link-2 {
+    font-weight: bold;
+}
+
+.marg {
+    margin-top: 15px;
+}
+
+#box-4 {
+    display: flex;
+    background-color: #FCFCFA;
+    width: 680px;
+    height: 630px;
+    border-radius: 5px;
+    overflow: hidden;
+    transform: translateX(121px) translateY(-300px);
+}
+
+.downloads {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-7 {
+    font-weight: 550;
+    font-size: 32px;
+    color: #4E443C;
+    margin-top: 20px;
+    transform: translateX(-76px);
+}
+
+.system {
+    display: flex;
+    justify-content: center;
+    background-color: #E9E8E0;
+    width: 300px;
+    height: 105px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.icon-apple,
+.icon-windows,
+.icon-linux {
+    height: 25px;
+}
+
+.link-system1,
+.link-system2,
+.link-system3 {
+    text-decoration: none;
+    list-style: none;
+}
+
+.icon-apple {
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.link-system1 {
+    margin-top: 18px;
+    transform: translateX(10px);
+    color: #0388A6;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.icon-linux {
+    transform: translateX(-185px) translateY(60px);
+}
+
+.link-system3 {
+    transform: translateX(-170px) translateY(65px);
+    color: #0388A6;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.icon-windows {
+    transform: translateX(55px) translateY(15px);
+}
+
+.link-system2 {
+    color: #0388A6;
+    font-weight: bold;
+    font-size: 16px;
+    transform: translateX(60px) translateY(17px);
+}
+
+.inf-repo {
+    color: #4E443C;
+    font-weight: 500;
+    transform: translateX(-3px);
+    margin-top: 14px;
+}
+
+.link-older,
+.link-repo {
+    text-decoration: none;
+    list-style: none;
+    color: #0388A6;
+}
+
+.monitor {
+    display: inline-block;
+}
+
+.pc {
+    height: 250px;
+    transform: translateY(15px);
+}
+
+.info-monitor {
+    transform: translateX(40px) translateY(-220px);
+    color: #FFFFFF;
+}
+
+.inf-5 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.inf-6 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.git-notes {
+    text-decoration: none;
+    list-style: none;
+    color: #3AC9C6;
+}
+
+.inf-7 {
+    font-weight: bold;
+}
+
+.button-mac {
+    background-color: #1A767C;
+    color: #FAF7F1;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #18696f;
+    font-size: 15px;
+    height: 35px;
+    width: 210px;
+    transform: translateY(10px);
+}
+
+#box-5 {
+    background-color: #E9E8E0;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 180px;
+    width: 627px;
+    transform: translateX(116px) translateY(-660px);
+}
+
+.title-8,
+.title-9 {
+    color: #F14E32;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.go1,
+.go2 {
+    text-decoration: none;
+    list-style: none;
+    color: #0388A6;
+    font-weight: bold;
+}
+
+.logos {
+    margin-top: 15px;
+}
+
+.inf-9 {
+    transform: translateY(20px);
+}
+
+.go-logos {
+    transform: translateY(37px)
+}
+
+.clients {
+    margin-top: 15px;
+}
+
+.inf-8 {
+    transform: translateY(20px);
+}
+
+.go-clients {
+    transform: translateY(37px);
+}
+
+#box-6 {
+    display: inline-block;
+    transform: translateX(560px) translateY(-630px);
+}
+
+.title-10 {
+    color: #F14E32;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inf-10 {
+    transform: translateY(10px);
+    font-size: 16px;
+}
+
+.bottom-git {
+    transform: translateY(12px);
+    border: 1px solid #F14E32;
+    color: #F14E32;
+    border-radius: 5px;
+    font-size: large;
+    width: 260px;
+    transform: translateX(-164px) translateY(30px);
+}
+
+.inf-11 {
+    font-size: 16px;
+    transform: translateY(40px)
+}
+
+.link-web {
+    text-decoration: none;
+    list-style: none;
+    color: #0388A6;
+}
+
+.vertical-line {
+    width: 61%;
+    height: 1px;
+    background-color: #b8b8b8;
+    transform: translateY(-510px);
+}
+
+#box-7 {
+    display: flex;
+    transform: translateY(-495px);
+}
+
+.icon-code {
+    height: 22px;
+    transform: translateX(205px);
+}
+
+.inf-12 {
+    color: #0B0B0A;
+    font-size: 16px;
+    transform: translateX(35px) translateY(-5px);
+}
+
+.inf-13 {
+    color: #A59C94;
+    font-size: 16px;
+    transform: translateX(-237px) translateY(15px);
+}
+
+.inf-14 {
+    color: #A59C94;
+    font-size: 16px;
+    transform: translateX(-205px);
+}
+
+.color {
+    color: #0B0B0A;
+}

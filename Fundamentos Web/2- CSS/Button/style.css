@@ -1,0 +1,36 @@
+.buscar,
+.mas,
+.cuenta {
+    display: block;
+    margin: 10px;
+}
+
+.buscar {
+    color: #7dc3c3;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #7dc3c3;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.mas {
+    color: white;
+    background-color: #7dc8c8;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.cuenta {
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color: #4e4ef7;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}

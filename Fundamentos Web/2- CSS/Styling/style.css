@@ -1,0 +1,29 @@
+.titulo_1 {
+    color: white;
+    margin-left: 20px;
+}
+
+span {
+    color: aqua;
+}
+
+.margen_izquierda {
+    background-color: black
+}
+
+.titulo_2 {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.titulo_3 {
+    text-align: right;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+.margen_derecha {
+    background-color: rgb(159, 202, 245)
+}

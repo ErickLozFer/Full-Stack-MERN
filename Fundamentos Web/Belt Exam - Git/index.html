@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="./icons/logo-git2.png" type="image/png">
+    <!-- He colocado el logo de Git para un mayor detalle de la página. -->
+
+    <title>Git - Downloads</title>
+    <!--He colocado el título de la página así porque en la muestra a replicar está subrayada la palabra Downloads lo que indica que la página se encuentra en esa sección.-->
+</head>
+
+<body>
+    <!-- Coloco los id de todos los div (cajas) principales como "box" y los enumero en orden accedente para diferenciarlos. -->
+    <div id="box-1">
+        <img src="./icons/git-logo.png" alt="logo-git" class="logo-git">
+        <p class="text-1">--distributed-is-the-new-centralized</p>
+        <div class="search-container">
+            <button class="search-button">
+                <img src="./icons/search_icon.png" alt="search-icon" class="icon-search">
+                <!-- He añadido la imagen del ícono de una lupa para poder colocarla en la barra de búsqueda. -->
+            </button>
+            <input type="text" class="search-input" placeholder="     Search entire site...">
+        </div>
+    </div>
+    <div id="box-2">
+        <p class="title-1">
+            <a href="#" class="links">About</a>
+        </p>
+        <p class="title-2">
+            <a href="#" class="links">Documentation</a>
+        </p>
+        <p class="title-3">
+            <a href="#" class="link-1">Downloads</a>
+        </p>
+        <p class="title-4">
+            <a href="#" class="links">GUI Clients</a>
+        </p>
+        <p class="title-5">
+            <a href="#" class="links">Logos</a>
+        </p>
+        <p class="title-6">
+            <a href="#" class="links">Community</a>
+        </p>
+    </div>
+    <div id="box-3">
+        <p class="marg">The entire <a href="#" class="link-2">Pro Git book</a><br>written by Scott Chacon and<br>Ben
+            Straub is available to <a href="#" class="link-3">read<br>online for free</a>. Dead tree<br>versions are
+            available on<br><a
+                href="https://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20"
+                class="link-3">Amazon.com</a>.
+            <!--He colocado el link real que direcciona a la página de Amazon.-->
+        </p>
+    </div>
+    <div id="box-4" class="over">
+        <div class="downloads">
+            <p class="title-7">Downloads</p>
+            <div class="system">
+                <img src="./icons/apple-icon.png" alt="apple" class="icon-apple">
+                <a href="#" class="link-system1">Mac OS X</a>
+                <img src="./icons/windows-icon.png" alt="windows" class="icon-windows">
+                <a href="#" class="link-system2">Windows</a>
+                <img src="./icons/linux-icon.png" alt="linux" class="icon-linux">
+                <a href="#" class="link-system3">Linux/Unix</a>
+            </div>
+            <p class="inf-repo"><a href="https://mirrors.edge.kernel.org/pub/software/scm/git/" class="link-older">Older
+                    releases</a> are available and the <a href="https://github.com/git/git" class="link-repo">Git source
+                    <br>repository</a> is on GitHub.</p>
+            <!--He agregado los links reales de las anteriores versiones de Git y del repositorio.-->
+        </div>
+        <div class="monitor">
+            <img src="./icons/monitor.png" alt="monitor" class="pc">
+            <div class="info-monitor">
+                <p class="inf-5">Latest source Release</p>
+                <p class="inf-6">2.20.1</p>
+                <p class="inf-7"><a
+                        href="https://raw.githubusercontent.com/git/git/master/Documentation/RelNotes/2.43.0.txt"
+                        class="git-notes">Release Notes</a> (2018-12-15)</p>
+                <!--Añadí el link de las notas de compatibilidad de Git-->
+                <button class="button-mac">Download 2.19.2 for Mac</button>
+            </div>
+        </div>
+    </div>
+    <div id="box-5" class="over">
+        <div class="clients">
+            <p class="title-8">GUI Clients</p>
+            <p class="inf-8">Git comes with built-in GUI tools <b>(git-gui,<br>gitk)</b>, but there are several
+                third-party tools for
+                <br>users looking for a platform-specific <br>experience.
+            </p>
+            <p class="go-clients"><a href="#" class="go1">View GUI Clients →</a></p>
+        </div>
+        <div class="logos">
+            <p class="title-9">Logos</p>
+            <p class="inf-9">Various Git logos in PNG (bitmap) and EPS <br>(vector) formats are available for use in
+                <br>online and
+                print projects.
+            </p>
+            <p class="go-logos"><a href="#" class="go2">View Logos →</a></p>
+        </div>
+    </div>
+    <div id="box-6">
+        <p class="title-10 over">Git via Git</p>
+        <p class="inf-10">If you already have Git istalled, you can get the latest development version via Git itself:
+        </p>
+        <p class="bottom-git">git clone https://github.com/git/git</p>
+        <p class="inf-11">You can also always browse the current contents of the git repository using the <a
+                href="https://github.com/git/git" class="link-web">web interface</a>.</p>
+        <!--Añado el link del repositorio de Git.-->
+    </div>
+    <div class="vertical-line"></div>
+    <div id="box-7">
+        <img src="./icons/code-icon.png" alt="code-icon" class="icon-code">
+        <p class="inf-12">About this site</p>
+        <p class="inf-13">Patches, suggestions, and comments are welcome.</p>
+        <p class="inf-14">Git is a member of <strong class="color">Software Freedom Conservancy</strong></p>
+    </div>
+
+    <!--Nota importante: Me queda un espacio en blanco al final de la página. Creo saber cuál ha sido el problema. Quise emplear la propiedad "transform" y la subpropiedad "traslate" para mover las cajas en los ejes X y Y. Eso me llevó a emplear en menor medida los "display" y demás propiedades. Entiendo que al mover los elementos con transform se agrandan las dimensiones de los ejes y por lo tanto quedan espacios vacíos. Si bien la página web replicada es funcional, está ordenada deacuerdo a la muestra y no colapsa en espacios, queda ese vacío al final que genera visualmente molesta.-->
+
+</body>
+
+</html>

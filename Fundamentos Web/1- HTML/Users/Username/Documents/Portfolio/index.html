@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body style="background-color: rgb(244, 226, 198);">
+
+    <!--Sé que ya es obsoleto el uso de style en HTML y que se emplea CSS para dar estilo a los fondos y demás elementos, pero la Actividad indicaba que se trabaje solo con HTML. Me pareció interesante darle un estilo propio a mi Portafolio personal, por ello le añadí color al fondo y a la tabla.-->
+
+    <h1>Erick Lozano Fernandez</h1>
+    <img src="./img/Erick.jpeg" alt="foto del autor" width="160" height="160">
+    <div>
+        <img src="./img/Github.jpg" alt="logo Github" width="53" height="35">
+        <a href="https://github.com/ErickLozFer">Github</a>
+        <img src="./img/LinkedIn.jpg" alt="logo LinkedIn" width="30" height="30">
+        <a href="https://www.linkedin.com/in/erick-lozano-40a342204/">LinkedIn</a>
+        <img src="./img/Instagram.png" alt="logo Instagram" width="47" height="32">
+        <a href="https://www.instagram.com/ericklozano4/">Instagram</a>
+        <img src="./img/Gmail.png" alt="logo Gmail" width="30" height="30">
+        <a href="https://www.3ricklf@gmail.com">Email</a>
+    </div>
+    <h2>Description</h2>
+    <p>Actor investigador profesional egresado de la Escuela Nacional Superior de Arte Dramático (ENSAD) de Lima, Perú.
+        <br> Me inclino por la dirección y el desarrollo de la sensorialidad en el teatro. Tengo 29 años y me encuentro
+        en un proceso <br> de reestructuración. Gran parte de mi vida la he dedicado a las artes y las letras enfocadas
+        en el análisis de las bases de <br> construcción del individuo en la sociedad, pero ahora estoy enfocado en
+        aprender a programar y construir en base a todo <br> ese mundo basado en los números y la lógica. Me pregunto si
+        será posible fusionar mis conocimientos en las artes escénicas <br> con los jeuvos conocimientos que voy
+        adquiriendo sobre la programación.</p>
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Jugar con mis perros</li>
+        <li>Escuchar música mientras leo cómics</li>
+        <li>Escribir obras de teatro y pequeñas historias</li>
+        <li>Ver películas y series</li>
+        <li>Jugar videojuegos</li>
+        <li>Leer libros de terror y fantasía</li>
+    </ul>
+    <h2>Favorite Songs</h2>
+    <ol>
+        <li>
+            <a href="https://youtu.be/AiSzWWuwPQs?si=JddykISP6ivntWWd">Con tu cuerpo el huracán - Prehistöricos</a>
+        </li>
+        <li>
+            <a href="https://youtu.be/l5R_rtAke4k?si=Z_2gY63oOyra_v-Z">Invéntame un final - Prehistöricos</a>
+        </li>
+        <li>
+            <a href="https://youtu.be/NE6pANWJGuU?si=XOiOTrRXLudFuMdC">Imagination - Foster the people</a>
+        </li>
+        <li>
+            <a href="https://youtu.be/seZeOGPKFhY?si=prdKC4a93BApNfPB">Violencia - Él mató a un policía motorizado</a>
+        </li>
+        <li>
+            <a href="https://youtu.be/1VzWdEuQexk?si=S61ryaTzoEhpR115">Historias del arte - 84</a>
+        </li>
+    </ol>
+    <h2>Favorite Books</h2>
+    <table border="1" style="background-color: rgb(176, 203, 243);">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Año</th>
+                <th>Género</th>
+                <th>Portada</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>El nombre del viento</td>
+                <td>Patrick Rothfuss</td>
+                <td>2007</td>
+                <td>Fantasía épica</td>
+                <td>
+                    <img src="./img/Elnombredelviento.jpg" alt="portada El nombre del viento" width="100" height="150">
+                </td>
+            </tr>
+            <tr>
+                <td>El temor de un hombre sabio</td>
+                <td>Patrick Rothfuss</td>
+                <td>2011</td>
+                <td>Fantasía épica</td>
+                <td>
+                    <img src="./img/Eltemordeunhombresabio.jpg" alt="portada El temor de un hombre sabio" width="100"
+                        height="150">
+                </td>
+            </tr>
+            <tr>
+                <td>La sombra del viento</td>
+                <td>Carlos Ruiz Zafón</td>
+                <td>2001</td>
+                <td>Ficción gótica</td>
+                <td>
+                    <img src="./img/Lasombradelviento.jpg" alt="portada La sombra del viento" width="100" height="150">
+                </td>
+            </tr>
+            <tr>
+                <td>Los detectives salvajes</td>
+                <td>Roberto Bolaño</td>
+                <td>1998</td>
+                <td>Novela</td>
+                <td>
+                    <img src="./img/Losdetectivessalvajes.jpg" alt="portada Los detectives salvajes" width="100"
+                        height="150">
+                </td>
+            </tr>
+            <tr>
+                <td>El exorcista</td>
+                <td>William Peter Blatty</td>
+                <td>1971</td>
+                <td>Terror</td>
+                <td>
+                    <img src="./img/Elexorcista.jpg" alt="portada El exorcista" width="100" height="150">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="/Users/Username/Documents/portfolio/index.html" method="post">
+        <div>
+            <h2>Contact me</h2>
+            <label for="name">Name:</label>
+            <input type="text" name="first_name" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <label for="message">Message:</label>
+        <div>
+            <textarea name="Message" cols="20" rows="3"></textarea>
+        </div>
+        <input type="submit" value="Send Message" id="message">
+    </form>
+</body>
+
+</html>

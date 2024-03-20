@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    width: 100%;
+    background-color: white;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-1 {
+    background-color: #1b99ac;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-2 {
+    padding: 10px;
+}
+
+.card-2 h1,
+.card-2 h2,
+.card-2 h3,
+.card-2 p {
+    margin: 20px 0px 10px 25px;
+}
+
+.photo {
+    border-radius: 50%;
+    background-color: white;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.map {
+    height: 20px;
+}
+
+.edit{
+    height: 20px;
+}
+
+a {
+    color: blue;
+}

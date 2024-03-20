@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="/process" method="post">
+        <div>
+            <label for="First_name">First Name:*</label>
+            <input type="text" name="first_name" id="First_name" placeholder="Your name...">
+        </div>
+        <div>
+            <label for="Last_name">Last Name:*</label>
+            <input type="text" name="last_name" id="Last_name" placeholder="Your last name">
+        </div>
+        <div>
+            <label for="Email_address">Email Address:*</label>
+            <input type="email" name="email_address" id="Email_address" placeholder="Your email...">
+        </div>
+        <div>
+            <label for="Password">Password:*</label>
+            <input type="password" name="password" id="Password" placeholder="Your password...">
+        </div>
+        <div>
+            <label for="Confirm_password">Confirm Password:*</label>
+            <input type="password" name="confirm_password" id="Confirm_password" placeholder="Your password repeat...">
+        </div>
+        <div>
+            <label for="Birthday">Birthday:</label>
+            <input type="date" name="birthday" id="Birthday">
+        </div>
+        <div>
+            Gender identity:
+        </div>
+        <div>
+            <input type="radio" name="gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" id="Non-binary">
+            <label for="Non-binary">Non-binary</label>
+            <input type="radio" name="gender" id="I_prefer_not_to_answer">
+            <label for="I_prefer_not_to_answer">I prefer not to answer</label>
+        </div>
+        <div>
+            A short description about myself:
+        </div>
+        <div>
+            <textarea name="comment" id="commentTextarea" cols="20" rows="3"></textarea>
+        </div>
+        <div>
+            Favorite language:
+            <select name="snack">
+                <option>JavaScript</option>
+                <option>Html</option>
+                <option>Css</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="accept" id="accept" checked>
+            <label for="accept">Yes, I would like to receive periodic email ipdates</label>
+        </div>
+        <input type="submit" value="Create Account">
+        <div>
+            *Indicates a required field
+        </div>
+    </form>
+</body>
+
+</html>

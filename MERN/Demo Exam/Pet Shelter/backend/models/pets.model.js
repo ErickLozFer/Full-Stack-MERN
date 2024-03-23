@@ -21,7 +21,6 @@ const PetsSchema = new mongoose.Schema(
         petSkills: {
             skillOne: {
                 type: String,
-                required: false,
             },
             skillTwo: {
                 type: String,
@@ -35,4 +34,5 @@ const PetsSchema = new mongoose.Schema(
 );
 
 const Pets = mongoose.model("pets", PetsSchema);
+
 export default Pets;

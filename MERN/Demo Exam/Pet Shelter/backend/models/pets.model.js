@@ -21,12 +21,15 @@ const PetsSchema = new mongoose.Schema(
         petSkills: {
             skillOne: {
                 type: String,
+                required: false,
             },
             skillTwo: {
                 type: String,
+                required: false,
             },
             skillThree: {
                 type: String,
+                required: false,
             },
         },
     },

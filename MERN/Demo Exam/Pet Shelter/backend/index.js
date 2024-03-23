@@ -17,6 +17,6 @@ app.use(petRoutes.petRouter);
 app.listen(8080);
 
 //Conectando el servidor con MongoDB
-mongoose.connect("mongodb://localhost:27017/PetsShelter")
-    .then(() => console.log("Conexión correcta: [puerto 8080]"))
+mongoose.connect("mongodb+srv://Erick:petshelter@petshelter.n5zu9el.mongodb.net/Mascotas")
+    .then(() => console.log("DB conectada: [puerto 8080]"))
     .catch((e) => console.log("Error", e));

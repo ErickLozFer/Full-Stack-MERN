@@ -1,0 +1,45 @@
+body {
+    background-image: url('./Mascotas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tableContainer {
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffca;
+}
+
+th {
+    background-color: #ffe2c9;
+    border: 2px solid black;
+    width: 170px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 50px;
+}
+
+table td {
+    border-left: 2px solid black;
+    padding: 8px;
+}
+
+table td:first-child {
+    border-left: none;
+}
+
+.link {
+    color: dodgerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}

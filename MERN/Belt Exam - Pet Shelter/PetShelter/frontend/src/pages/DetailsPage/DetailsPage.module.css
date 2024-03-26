@@ -1,0 +1,28 @@
+.container {
+    border: 2px solid black;
+    margin-right: 252px;
+    margin-left: 252px;
+    padding: 16px;
+}
+
+.subContainer {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.subContainer>h3 {
+    padding-right: 32px;
+}
+
+.space {
+    margin-right: 10px;
+}
+
+.likeButton {
+    margin-right: 20px;
+}
+
+.likesCount {
+    margin-left: 10px;
+}
